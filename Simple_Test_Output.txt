@@ -1,0 +1,45 @@
+Tests TSP 
+
+
+||| Simulated Annealing ||| [2. a)]
+
+
+Temperature (Default = 3) : 3
+CoolingFactor (Default = 1) : 1
+
+ Running Test 
+
+Starting Values :  [v3, v2, v5, v6, v1, v4] 
+
+Swapped  v2 <-> v1  [random swap]
+Iteration :  1  ->  [v3, v1, v5, v6, v2, v4]
+
+
+Swapped  v2 <-> v4  [random swap]
+Iteration :  2  ->  [v3, v1, v5, v6, v4, v2]
+
+
+Swapped  v3 <-> v4  [better result]
+Iteration :  3  ->  [v4, v1, v5, v6, v3, v2]
+
+
+
+||| Treshhold Acceptance ||| [2. d)]
+
+
+Threshhold (Default = 1) : 1
+
+ Running Test 
+
+Starting Values :  [v4, v5, v2, v3, v6, v1] 
+
+Swapped  v6 <-> v2  [better result]
+Iteration :  1  ->  [v4, v5, v6, v3, v2, v1]
+
+
+Swapped nothing
+Iteration :  2  ->  [v4, v5, v6, v3, v2, v1]
+
+
+Swapped nothing
+Iteration :  3  ->  [v4, v5, v6, v3, v2, v1]
