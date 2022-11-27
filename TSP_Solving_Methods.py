@@ -96,7 +96,7 @@ def SimAnn() -> None:
         temp -= 1 * coolingFac
 
 
-def threshHold():
+def threshHold() -> None:
 
     lis = setup()
 
